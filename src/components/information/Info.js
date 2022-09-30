@@ -65,7 +65,7 @@ const Info = (props) => {
           <h1 className="text-lg font-bold">Add A Break</h1>
           <div
             id="secondsBtn"
-            className="flex justify-between bg-blue-100 px-6 py-3 mt-5 rounded-md">
+            className="flex justify-between bg-blue-100 px-2 py-2 mt-5 rounded-md">
             <button
               onClick={() => breakTime(1)}
               className="h-10 w-10 rounded-full secBtn bg-white">1m
@@ -92,7 +92,7 @@ const Info = (props) => {
          */}
         <div className="mt-6">
           <h3 className="text-xl font-medium">Exercise Details</h3>
-          <div className="flex justify-between bg-blue-100 px-5 py-3 rounded-md mt-3">
+          <div className="flex justify-between bg-blue-100 px-2 py-2 rounded-md mt-3">
             <p>
               <span className="font-bold">Study time</span>
             </p>
@@ -103,7 +103,7 @@ const Info = (props) => {
               </span>
             </p>
           </div>
-          <div className="flex justify-between bg-blue-100 px-5 py-3 rounded-md mt-3">
+          <div className="flex justify-between bg-blue-100 px-2 py-2 rounded-md mt-3">
             <p>
               <span className="font-bold">
                 Break time : <span></span>
