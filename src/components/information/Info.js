@@ -1,7 +1,10 @@
 import React from "react";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Info = (props) => {
+  
   const { cart } = props;
+
 
 
   let time = 0;
@@ -13,10 +16,8 @@ const Info = (props) => {
     const restDuration = document.getElementById("breakTime");
     restDuration.innerText = time;
   };
-  // w-full mx-auto p-7 mt-10 bg-white
-  // w-full mx-auto bg-white text-black p-7 mt-20
-  // w-full lg:w-1/4 text-center lg:text-left mt-0 lg:mt-44
-  // information 
+
+  const notify =() => toast('Today Study Complete');
   return (
     <div className="flex text-black">
       <div className="grid w-full mx-auto bg-white p-12">
@@ -25,6 +26,9 @@ const Info = (props) => {
           {/* My Name And Location */}
           <h1 className="text-lg font-bold">Bayejid Hawlader</h1>
           <p>Dhaka, Bangladesh</p>
+
+          <ToastContainer></ToastContainer>
+          
 
           {/* My Some Detsils */}
           <div className="flex justify-between bg-blue-100 px-1 py-2 mt-5 rounded-md">
@@ -114,13 +118,14 @@ const Info = (props) => {
           </div>
         </div>
         <button
+        onClick={notify}
           type="button"
-          className="mt-5 inline-flex w-full justify-center rounded-lg bg-success px-5 py-4 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
-        >
+          className="mt-5 inline-flex w-full justify-center rounded-lg bg-success px-5 py-4 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900">
           Activity Complete
         </button>
       </div>
     </div>
+    
   );
 };
 
