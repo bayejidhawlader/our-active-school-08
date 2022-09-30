@@ -7,7 +7,6 @@ const Info = (props) => {
   let time = 0;
   for (const info of cart) {
     time = time + info.time;
-    // console.log(time);
   }
 
   const breakTime = (time) => {
@@ -23,7 +22,7 @@ const Info = (props) => {
       <div className="grid w-full mx-auto bg-white p-12">
         {/* <h1 className="">{cart.length}</h1> */}
         <div className="">
-          {/* My Name ANd Location */}
+          {/* My Name And Location */}
           <h1 className="text-lg font-bold">Bayejid Hawlader</h1>
           <p>Dhaka, Bangladesh</p>
 
