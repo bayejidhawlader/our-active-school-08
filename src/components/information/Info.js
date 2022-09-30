@@ -14,11 +14,13 @@ const Info = (props) => {
     const restDuration = document.getElementById("breakTime");
     restDuration.innerText = time;
   };
-
+  // w-full mx-auto p-7 mt-10 bg-white
+  // w-full mx-auto bg-white text-black p-7 mt-20
+  // w-full lg:w-1/4 text-center lg:text-left mt-0 lg:mt-44
   // information 
   return (
-    <div>
-      <div className="w-full mx-auto bg-white text-black p-7 mt-20 md:grid-cols-1">
+    <div className="text-black">
+      <div className="w-full mx-auto p-7 mt-10 bg-white">
         {/* <h1 className="">{cart.length}</h1> */}
         <div className="">
           {/* My Name ANd Location */}

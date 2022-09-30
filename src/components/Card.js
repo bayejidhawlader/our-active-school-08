@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Info from "./information/Info";
 import Product from "./Product/Product";
+import './Cards.css'
 
 const Card = () => {
   const [products, setProducts] = useState([]);
@@ -20,10 +21,11 @@ const Card = () => {
     const newCart = [...cart, product];
     setCart(newCart);
   };
-
+  // w-full lg:w-3/4 px-10 py-10
+  // card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-4 mt-20
   return (
-    <div className="flex">
-      <div className="card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[70%] gap-7 px-4 mt-20">
+    <div className="block lg:flex my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full lg:w-3/4 gap-4 px-10 py-10">
         {products.map((product) => (
           <Product
             key={product.name}
@@ -41,3 +43,5 @@ const Card = () => {
 };
 
 export default Card;
+
+// w-full lg:w-3/4 px-10 py-10
