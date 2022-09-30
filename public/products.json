@@ -1,0 +1,45 @@
+[
+  {
+    "id": "1",
+    "name": "Madrasa Student",
+    "img": "https://images.pexels.com/photos/448877/pexels-photo-448877.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "time": 5,
+    "button": "Add To List"
+    
+  },
+  {
+    "id": "2",
+    "name": "Student on Computer",
+    "img": "https://images.pexels.com/photos/3401403/pexels-photo-3401403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "time": 10,
+    "button": "Add To List"
+  },
+  {
+    "id": "3",
+    "name": "Draw Pictures for Kids",
+    "img": "https://images.pexels.com/photos/3992949/pexels-photo-3992949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "time": 15,
+    "button": "Add To List"
+  },
+  {
+    "id": "4",
+    "name": "Written on Exam",
+    "img": "https://images.pexels.com/photos/207756/pexels-photo-207756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "time": 20,
+    "button": "Add To List"
+  },
+  {
+    "id": "5",
+    "name": "Happy School Students",
+    "img": "https://images.pexels.com/photos/764681/pexels-photo-764681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "time": 25,
+    "button": "Add To List"
+  },
+  {
+    "id": "6",
+    "name": "Graduation Day",
+    "img": "https://images.pexels.com/photos/1184580/pexels-photo-1184580.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "time": 30,
+    "button": "Add To List"
+  }
+]
