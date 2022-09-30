@@ -1,7 +1,6 @@
 import React from "react";
 
 const Product = ({ product, handelAddToList }) => {
-  // const { product, handelAddToList } = props;
   const { name, img, time, button } = product;
 
   return (
