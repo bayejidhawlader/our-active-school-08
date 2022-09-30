@@ -28,10 +28,10 @@ const Info = (props) => {
           <p>Dhaka, Bangladesh</p>
 
           {/* My Some Detsils */}
-          <div className="flex justify-between bg-blue-100 px-6 py-3 mt-5 rounded-md">
+          <div className="flex justify-between bg-blue-100 px-1 py-2 mt-5 rounded-md">
             <div>
               <h3>
-                <span className="text-2xl font-bold text-black">72</span>
+                <span className="text-xl font-bold text-black">72</span>
                 <span className="text-gray-500 text-1xl"> kg</span>
               </h3>
               <p className="text-center text-gray-800">Weight</p>
@@ -39,16 +39,16 @@ const Info = (props) => {
 
             <div>
               <h3>
-                <span className="text-2xl font-bold text-black">5.9</span>
-                <span className="text-gray-500 text-1xl">fit</span>
+                <span className="text-xl font-bold text-black">5.9</span>
+                <span className="text-gray-500 text-1xl"> fit</span>
               </h3>
               <p className="text-center text-gray-800">Height</p>
             </div>
 
             <div>
               <h3>
-                <span className="text-2xl font-bold text-black">23</span>
-                <span className="text-gray-500 text-1xl">years</span>
+                <span className="text-xl font-bold text-black">23</span>
+                <span className="text-gray-500 text-1xl"> years</span>
               </h3>
               <p className="text-center text-gray-800">Old</p>
             </div>
