@@ -25,7 +25,7 @@ const Card = () => {
   // card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-4 mt-20
   return (
     <div className="block lg:flex my-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:w-3/4 gap-4 px-10 pb-7">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:w-3/4 gap-2 px-6 pb-7">
         {products.map((product) => (
           <Product
             key={product.name}
