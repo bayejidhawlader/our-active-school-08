@@ -19,8 +19,8 @@ const Info = (props) => {
   // w-full lg:w-1/4 text-center lg:text-left mt-0 lg:mt-44
   // information 
   return (
-    <div className="text-black">
-      <div className="w-full mx-auto p-7 mt-10 bg-white">
+    <div className="flex text-black">
+      <div className="grid w-full mx-auto bg-white p-12">
         {/* <h1 className="">{cart.length}</h1> */}
         <div className="">
           {/* My Name ANd Location */}
