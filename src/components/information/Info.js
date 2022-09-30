@@ -15,9 +15,10 @@ const Info = (props) => {
     restDuration.innerText = time;
   };
 
+  // information 
   return (
     <div>
-      <div className="information mx-auto bg-white text-black p-7 mt-20">
+      <div className="w-full mx-auto bg-white text-black p-7 mt-20 md:grid-cols-1">
         {/* <h1 className="">{cart.length}</h1> */}
         <div className="">
           {/* My Name ANd Location */}
